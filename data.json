@@ -1,0 +1,18 @@
+{
+    "containers": {
+        "3f100e7564a18ef92d69f5e969e41bee785001e1acea2fec789bdcaba28a97e9": {
+            "Sample": 0,
+            "myfile": 4
+        },
+        "dcaf1d3d3098d6b40f5135875eeb9947d52169dec3f86d8b675a91a91713182e": {
+            "Sample": 0
+        },
+        "24686a9c11f1640f588e81f51fa68d7e41ac6d067f6a37b100d0ecf30894d3b2": {
+            "f": 4,
+            "wrgt": 4
+        }
+    },
+    "sals": {
+        "3f100e7564a18ef92d69f5e969e41bee785001e1acea2fec789bdcaba28a97e9": "XJUTjjmfLd90Z27F07z/nw=="
+    }
+}
