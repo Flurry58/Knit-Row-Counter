@@ -537,18 +537,18 @@ def addkey(e):
 
 #encrypt everything when you close the window 
 def on_closing():
-  salt = login_screen.getsal(MainUser)
-  with open("data.json", "r") as file:
-      data = json.load(file)
-      file.close()
-
-  newcopy = {}
-  for key in data["containers"][MainUser]:
-    print(data["containers"][MainUser][key])
-    newcopy[login_screen.scramble(key)] = login_screen.scramble(str(data["containers"][MainUser][key]))
-
-  print(newcopy)
-    
+# salt = login_screen.getsal(MainUser)
+#  with open("data.json", "r") as file:
+#      data = json.load(file)
+#      file.close()
+#
+#  newcopy = {}
+#  for key in data["containers"][MainUser]:
+#    print(data["containers"][MainUser][key])
+#    newcopy[login_screen.scramble(key)] = login_screen.scramble(str(data["containers"][MainUser][key]))
+#
+#  print(newcopy)
+#   
   
   
   window.destroy()
